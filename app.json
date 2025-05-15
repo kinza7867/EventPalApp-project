@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "EventPalApp",
+    "slug": "EventPalApp",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "eventpalapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.kinza_ali.EventPalApp"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c68dc96d-79dc-4b4b-81e7-5cd7e8d8bef2"
+      }
+    }
+  }
+}
